@@ -1,3 +1,7 @@
+---
+layout: default
+title: Résumé - Sam Umbach
+---
 SAM UMBACH
 4018 Westfield Dr.
 Durham, NC 27705
@@ -30,7 +34,7 @@ Video game developer with specialization in animation, optimization, and process
 COFOUNDER August 2008 - Present
 reviewshine.com, Durham, NC
 Assisting independent music artists promote their releases through publicity on music blogs
-    * Delivered over 12,000 promotional copies in our first year of operation, saving artists over $35K in postage, packaging, and other costs and nearly 20 tons of CO2 emissions
+    * Delivered over 12,000 promotional copies in our first year of operation, saving artists over $35K in postage, packaging, and other costs and nearly *20 tons of CO ~2~ emissions*
     * Turned a profit in the month of our first sale and each month thereafter
     * Controlled costs and development time by using off-the-shelf components and free or inexpensive web services including GitHub, Lighthouse, and Hoptoad
     * Applied test-driven development and agile methods to deliver a high-quality web application on a Ruby on Rails/MySQL/Apache/Linux stack
