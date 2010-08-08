@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:300);
+
+body {
+  font-family: 'Droid Serif', times, serif;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+div.header {
+  text-align: center;
+}
+
+span.name {
+  text-transform: uppercase;
+}
+
+div.section {
+}
+
+p.section-heading {
+  text-transform: uppercase;
+}
+
+div.job {
+}
+
+p.job-title {
+  text-transform: uppercase;
+  display: inline;
+}
+
+p.employment-dates {
+  display: inline;
+}
+
+p.employer {
+  display: inline;
+}
+
+p.job-description {
+  margin-bottom: 2px;
+}
+
+ul {
+  margin: 0px;
+}

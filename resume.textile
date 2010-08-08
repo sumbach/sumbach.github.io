@@ -2,23 +2,34 @@
 layout: default
 title: Résumé - Sam Umbach
 ---
-SAM UMBACH
+<div class="header">
+%(name)Sam Umbach%
 4018 Westfield Dr.
 Durham, NC 27705
 919-698-2436
 sumbach@gmail.com
+</div>
 
 
-SUMMARY
+<div class="section" id="summary">
+p(section-heading). Summary
 
 Detail-oriented software engineer with extensive experience in network applications. Enthusiastic student of new technology with a track record of successfully establishing policies and standards within organizations. Experienced designer and analyst with excellent communication skills complementing comprehensive knowledge of networking, databases, storage and operating systems. Adaptable and ambitious with interest in mentorship and project management.
+</div>
 
 
-EXPERIENCE
+<div class="section" id="experience">
+p(section-heading). Experience
 
-SOFTWARE ENGINEER June 2007 - Present
-Electronic Arts, Morrisville, NC
-Video game developer with specialization in animation, optimization, and process improvement.
+
+<div class="job">
+p(job-title). Software Engineer
+
+p(employment-dates). June 2007 - Present
+
+p(employer). Electronic Arts, Morrisville, NC
+
+p(job-description). Video game developer with specialization in animation, optimization, and process improvement.
     * Shipped three titles (NASCAR 09 PS2, NSACAR Kart Racing Wii, and EA Sports MMA) with two more in post-production (Madden NFL Football and FIFA 2011, both for Nintendo 3DS)
     * Ported, optimized, and improved animation runtime libraries for PS2, Wii, XBox360, PS3, and 3DS
     * Maintained and improved desktop animation tools for PC in C#, C++, and Managed C++
@@ -30,18 +41,32 @@ Video game developer with specialization in animation, optimization, and process
     * Consulted with designers and UI artists to improve usability in our games
     * Contributed extensively to EA's shared source projects; improved the policy and procedure for game and central teams to contribute their changes and avoid unnecessary code forking
     * Led the charge for continuous improvement, identifying inefficiencies and working with the appropriate EA teams to improve the process for all parties
+</div>
 
-COFOUNDER August 2008 - Present
-reviewshine.com, Durham, NC
-Assisting independent music artists promote their releases through publicity on music blogs
+
+<div class="job">
+p(job-title). Cofounder
+
+p(employment-dates). August 2008 - Present
+
+p(employer). reviewshine.com, Durham, NC
+
+p(job-description). Assisting independent music artists promote their releases through publicity on music blogs
     * Delivered over 12,000 promotional copies in our first year of operation, saving artists over $35K in postage, packaging, and other costs and nearly *20 tons of CO ~2~ emissions*
     * Turned a profit in the month of our first sale and each month thereafter
     * Controlled costs and development time by using off-the-shelf components and free or inexpensive web services including GitHub, Lighthouse, and Hoptoad
     * Applied test-driven development and agile methods to deliver a high-quality web application on a Ruby on Rails/MySQL/Apache/Linux stack
+</div>
 
-SOFTWARE ENGINEER January 2007 - May 2007
-Raritan Computer, Raleigh, NC
-Web application developer and Linux systems integration specialist
+
+<div class="job">
+p(job-title). Software Engineer
+
+p(employment-dates). January 2007 - May 2007
+
+p(employer). Raritan Computer, Raleigh, NC
+
+p(job-description). Web application developer and Linux systems integration specialist
     * Developed Java servlets (version 2.4) and JSP (version 2.0) for deployment on Apache Tomcat 5
     * Wrote Java bindings for rrdtool using JNI (Java Native Interface)
     * Added thread-safe versions of several rrdtool library functions
@@ -50,10 +75,17 @@ Web application developer and Linux systems integration specialist
     * Internationalized Java and JSP code using locales and properties files; internationalized Perl code using GNU gettext
     * Maintained and improved a complex build system including Ant, Maven, rpmbuild, and GNU Make
     * Adopted agile methodologies including test-driven development using junit and pyunit
+</div>
 
-SENIOR SOFTWARE ENGINEER January 2004 - December 2006
-SciMed Solutions, Durham, NC (subsidiary of Net Friends)
-Responsible for development, systems integration, and build infrastructure for commercial software products.
+
+<div class="job">
+p(job-title). Senior Software Engineer
+
+p(employment-dates). January 2004 - December 2006
+
+p(employer). SciMed Solutions, Durham, NC (subsidiary of Net Friends)
+
+p(job-description). Responsible for development, systems integration, and build infrastructure for commercial software products.
     * Technical designer of CardioWifi 802.11b/g wireless ECG capture device
     * Authored network protocol for CardioWifi and CardioServer cardiology management system
     * Implemented this protocol in C++ and Java (J2SE 1.4 and 1.5/5.0)
@@ -61,31 +93,51 @@ Responsible for development, systems integration, and build infrastructure for c
     * Led redesign and implementation of WebPAX cardiology image archiving system in Perl
     * Performed technical sales duties for CardioServer and WebPAX products
     * Developed custom modules for Microsoft Dynamics CRM with C#/.NET 1.1 and 2.0
+</div>
 
-SENIOR NETWORK SUPPORT SPECIALIST June 2003 - December 2006
-Net Friends, Durham, NC
-Systems and network administrator for Duke Cardiovascular Magnetic Resonance Center (DCMRC) and Net Friends.
+
+<div class="job">
+p(job-title). Senior Network Support Specialist
+
+p(employment-dates). June 2003 - December 2006
+
+p(employer). Net Friends, Durham, NC
+
+p(job-description). Systems and network administrator for Duke Cardiovascular Magnetic Resonance Center (DCMRC) and Net Friends.
     * Researched and provided purchase recommendations for storage, network and software
     * Installed, configured, and managed multi-vendor iSCSI Storage Area Network (SAN)
     * Interfaced with Microsoft SQL Server 7.0, 2000, and 2005; Oracle 8, 9i, and 10g; MySQL 5; and FileMaker 7 and 8 database
+</div>
 
-SOFTWARE DEVELOPER April 2001 - May 2003
-Palisade Systems, Ames, IA
-Responsible for the PacketPup line of products providing network protocol monitoring and filtering from a Windows GUI.
+
+<div class="job">
+p(job-title). Software Developer
+
+p(employment-dates). April 2001 - May 2003
+
+p(employer). Palisade Systems, Ames, IA
+
+p(job-description). Responsible for the PacketPup line of products providing network protocol monitoring and filtering from a Windows GUI.
     * Developed networking software in C/C++ on FreeBSD and Windows platforms
     * Ported existing code from FreeBSD to Windows, moving three products to the same code base
     * Developed testing infrastructure including a Visual Basic program to automate testing from specifications and test plans in Microsoft Excel spreadsheets
     * Acquired in-depth knowledge of Ethernet and TCP/IP including bridging, routing, redirection/NAT and network protocols
+</div>
+</div>
 
 
-EDUCATION AND PROFESSIONAL DEVELOPMENT
+<div class="section" id="education">
+p(section-heading). Education and Professional Development
     * B.S., Computer Engineering & Mathematics, Iowa State University, 2003
     * MySQL Performance Tuning and Optimization, MySQL AB, 2005
     * Software Development Best Practices, Dr. Dobb's SD Events Group, 2006
     * Game Developers Conference, 2008
     * Triangle Game Conference, Triangle Game Initiative, 2010
+</div>
 
 
-OTHER
+<div class="section" id="other">
+p(section-heading). Other
     * Healthcare industry background: Health Insurance Portability and Accountability Act (HIPAA), Health Level 7 (HL7), Digital Imaging and Communication in Medicine (DICOM)
     * Eagle Scout, Boy Scouts of America, 1997
+</div>
