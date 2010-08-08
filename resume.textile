@@ -52,7 +52,7 @@ p(employment-dates). August 2008 - Present
 p(employer). reviewshine.com, Durham, NC
 
 p(job-description). Assisting independent music artists promote their releases through publicity on music blogs
-    * Delivered over 12,000 promotional copies in our first year of operation, saving artists over $35K in postage, packaging, and other costs and nearly *20 tons of CO ~2~ emissions*
+    * Delivered over 12,000 promotional copies in our first year of operation, saving artists over $35K in material and shipping costs and *nearly 20 tons of Carbon Dioxide emissions*
     * Turned a profit in the month of our first sale and each month thereafter
     * Controlled costs and development time by using off-the-shelf components and free or inexpensive web services including GitHub, Lighthouse, and Hoptoad
     * Applied test-driven development and agile methods to deliver a high-quality web application on a Ruby on Rails/MySQL/Apache/Linux stack
@@ -122,8 +122,7 @@ p(job-description). Responsible for the PacketPup line of products providing net
     * Ported existing code from FreeBSD to Windows, moving three products to the same code base
     * Developed testing infrastructure including a Visual Basic program to automate testing from specifications and test plans in Microsoft Excel spreadsheets
     * Acquired in-depth knowledge of Ethernet and TCP/IP including bridging, routing, redirection/NAT and network protocols
-</div>
-</div>
+</div></div>
 
 
 <div class="section" id="education">

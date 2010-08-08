@@ -1,9 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:300,900);
 
 body {
   font-family: 'Droid Serif', times, serif;
   font-weight: 300;
+  font-size: 14pt;
   line-height: 1.3em;
+
+  width: 10in;
+  margin: 0em auto;
 }
 
 div.header {
@@ -12,35 +16,50 @@ div.header {
 
 span.name {
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 22pt;
 }
 
 div.section {
+  margin: 1em 0em;
 }
 
 p.section-heading {
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 16pt;
+}
+
+ul {
+  margin: 0em;
 }
 
 div.job {
+  font-size: 16pt;
+  margin: 1em 0em;
 }
 
-p.job-title {
+div.job p {
+  margin: 0.2em 0em;
+}
+
+div.job p.job-title {
   text-transform: uppercase;
   display: inline;
 }
 
-p.employment-dates {
+div.job p.employment-dates {
   display: inline;
+  float: right;
 }
 
-p.employer {
-  display: inline;
+div.job p.employer {
 }
 
-p.job-description {
-  margin-bottom: 2px;
+div.job p.job-description {
+  margin: 0.4em 0em;
 }
 
-ul {
-  margin: 0px;
+div.job ul {
+  font-size: 12pt;
 }
