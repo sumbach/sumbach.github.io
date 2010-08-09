@@ -59,6 +59,7 @@ div.job p.job-title {
 div.job p.employment-dates {
   display: inline;
   float: right;
+  margin-bottom: 0;
 }
 
 div.job p.employer {
