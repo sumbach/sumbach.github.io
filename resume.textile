@@ -2,6 +2,8 @@
 layout: default
 title: Résumé - Sam Umbach
 ---
+p(#pdf-link). "(PDF Version)":resume.pdf
+
 <div class="header">
 %(name)Sam Umbach%
 4018 Westfield Dr.
