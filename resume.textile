@@ -9,6 +9,11 @@ Durham, NC 27705
 919-698-2436
 sumbach@gmail.com
 </div>
+<div class="header" id="printheader">
+%(name)Sam Umbach%
+919-698-2436
+sumbach@gmail.com
+</div>
 
 
 <div class="section" id="summary">

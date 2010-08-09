@@ -1,0 +1,36 @@
+@page {
+  size: "US-Letter";
+  margin: 100pt 45pt 45pt 45pt;
+  padding: 0;
+  @top {
+    content: flow(printheader);
+  }
+  @bottom-left {
+    margin-bottom: 30pt;
+    content: "Résumé - Sam Umbach";
+  }
+  @bottom-right {
+    margin-bottom: 30pt;
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+@page :first {
+  margin-top: 30pt;
+  @top {
+    content: "";
+  }
+}
+
+div#printheader {
+  display: block !important;
+  flow: static(printheader);
+}
+
+div.job {
+  page-break-inside: avoid;
+}
+
+#education {
+  page-break-before: always;
+}
