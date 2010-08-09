@@ -5,13 +5,16 @@ body {
   font-weight: 300;
   font-size: 14pt;
   line-height: 1.3em;
+}
 
+div#body {
   width: 10in;
-  margin: 0em auto;
+  margin: 0 auto;
 }
 
 div.header {
   text-align: center;
+  margin-bottom: -1em;
 }
 
 span.name {
@@ -21,7 +24,7 @@ span.name {
 }
 
 div.section {
-  margin: 1em 0em;
+  margin: 1em 0;
 }
 
 p.section-heading {
@@ -31,16 +34,16 @@ p.section-heading {
 }
 
 ul {
-  margin: 0em;
+  margin: 0;
 }
 
 div.job {
   font-size: 16pt;
-  margin: 1em 0em;
+  margin: 1em 0;
 }
 
 div.job p {
-  margin: 0.2em 0em;
+  margin: 0.2em 0;
 }
 
 div.job p.job-title {
@@ -57,7 +60,7 @@ div.job p.employer {
 }
 
 div.job p.job-description {
-  margin: 0.4em 0em;
+  margin: 0.4em 0;
 }
 
 div.job ul {
