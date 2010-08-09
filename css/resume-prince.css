@@ -31,6 +31,10 @@ div.job {
   page-break-inside: avoid;
 }
 
-#education {
-  page-break-before: always;
+p.section-heading {
+  page-break-after: avoid;
+}
+
+ul {
+  page-break-inside: avoid;
 }
