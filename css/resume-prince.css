@@ -1,16 +1,16 @@
 @page {
   size: "US-Letter";
-  margin: 100pt 45pt 45pt 45pt;
+  margin: 110pt 30pt 30pt 30pt;
   padding: 0;
   @top {
     content: flow(printheader);
   }
   @bottom-left {
-    margin-bottom: 30pt;
+    margin-bottom: 10pt;
     content: "Résumé - Sam Umbach";
   }
   @bottom-right {
-    margin-bottom: 30pt;
+    margin-bottom: 10pt;
     content: "Page " counter(page) " of " counter(pages);
   }
 }

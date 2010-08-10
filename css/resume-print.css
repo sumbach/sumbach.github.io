@@ -1,7 +1,3 @@
-body {
-  font-size: 12pt;
-}
-
 div#body {
   width: 100%;
   margin: 0;
@@ -10,4 +6,12 @@ div#body {
 
 #pdf-link {
   display: none;
+}
+
+body {
+  font-size: 12pt;
+}
+
+p.section-heading, div.job {
+  font-size: 14pt;
 }
