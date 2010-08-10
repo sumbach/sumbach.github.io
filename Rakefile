@@ -1,7 +1,8 @@
 CSS_FILES = FileList['css/*.css']
+LAYOUT_FILES = FileList['_layouts/**']
 SITE_FILES = FileList['_site/**']
 
-file '_site/resume.html' => ['resume.textile', *CSS_FILES] do |t|
+file '_site/resume.html' => ['resume.textile'] + CSS_FILES + LAYOUT_FILES do |t|
   sh "jekyll --pygments --safe"
 end
 
