@@ -37,16 +37,15 @@ p(employment-dates). June 2007 - Present
 p(employer). Electronic Arts, Morrisville, NC
 
 p(job-description). Video game developer with specialization in animation, optimization, and process improvement.
-    * Shipped three titles (NASCAR 09 PS2, NSACAR Kart Racing Wii, and EA Sports MMA) with two more in post-production (Madden NFL Football and FIFA 2011, both for Nintendo 3DS)
-    * Ported, optimized, and improved animation runtime libraries for PS2, Wii, XBox360, PS3, and 3DS
+    * Shipped three titles (NASCAR 09 PS2, NSACAR Kart Racing Wii, and EA Sports MMA PS3/XBox 360) with two more in post-production (Madden NFL Football Nintendo 3DS and FIFA 2011 Nintendo 3DS)
+    * Ported, optimized, and improved animation runtime libraries for PS2, Wii, XBox 360, PS3, and 3DS
     * Maintained and improved desktop animation tools for PC in C#, C++, and Managed C++
-    * Optimized for speed and cache efficiency, including rewriting problematic routines in PowerPC and ARM assembly
+    * Optimized for speed and cache efficiency, rewriting problematic routines in PowerPC and ARM assembly
     * Optimized for memory usage; identified and eliminated memory fragmentation
     * Worked with numerous other game subsystems, including networking, database, user interface, physics, rendering, and audio
     * Created a unit testing framework for gaming consoles to run within EA's continuous integration system
     * Automated source control interaction, asset export and build, and repetitive and error-prone procedures within artist tools
-    * Consulted with designers and UI artists to improve usability in our games
-    * Contributed extensively to EA's shared source projects; improved the policy and procedure for game and central teams to contribute their changes and avoid unnecessary code forking
+    * Contributed extensively to EA's shared source projects; improved procedures for game teams to contribute changes and avoid unnecessary code forking
     * Led the charge for continuous improvement, identifying inefficiencies and working with the appropriate EA teams to improve the process for all parties
 
 </div>
