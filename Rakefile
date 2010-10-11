@@ -1,13 +1,21 @@
 CSS_FILES = FileList['css/*.css']
 LAYOUT_FILES = FileList['_layouts/**']
-SITE_FILES = FileList['_site/**']
+SOURCE_FILES = FileList['*.textile']
+SITE_FILES = SOURCE_FILES.gsub(/(.*)\.textile/, '_site/\1.html')
 
-file '_site/resume.html' => ['resume.textile'] + CSS_FILES + LAYOUT_FILES do |t|
+task :jekyll => SOURCE_FILES + CSS_FILES + LAYOUT_FILES do
   sh "jekyll --pygments --safe"
 end
 
-file 'resume.pdf' => SITE_FILES do |t|
-  sh "prince --verbose -s _site/css/resume-prince.css _site/resume.html -o #{t.name}"
+SITE_FILES.each do |f|
+  file f => :jekyll
 end
 
-task :default => ['resume.pdf']
+# TODO: use SITE_FILES instead
+["resume", "one-sheet"].each do |name|
+  file "#{name}.pdf" => ["_site/#{name}.html"] do |t|
+    sh "prince --verbose -s _site/css/resume-prince.css _site/#{name}.html -o #{t.name}"
+  end
+
+  task :default => ["#{name}.pdf"]
+end

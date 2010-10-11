@@ -1,0 +1,76 @@
+---
+layout: default
+title: Résumé - Sam Umbach
+---
+p(#pdf-link). "(PDF Version)":one-sheet.pdf
+
+<div class="header">
+%(name)Sam Umbach%
+4018 Westfield Dr., Durham, NC 27705
+919-698-2436  sumbach@gmail.com
+</div>
+<div class="header" id="printheader">
+%(name)Sam Umbach%
+919-698-2436  sumbach@gmail.com
+</div>
+
+
+<div class="section" id="summary">
+p(section-heading). Summary
+    * Breadth of experience in several industries: gaming, healthcare, network security, music, new media
+    * Deep understanding of technology: I have built networks and SANs; coded assembly for embedded systems; automated build, testing, and deployment; developed in nearly every major programming language; and wrote code from simple shell scripts to video games to web applications
+    * Dedicated to continuous improvement, for my team, my employer, my family, and myself
+    * Strong desire to learn about both technology and business
+    * Hands-on experience as an entrepreneur, making the tough decisions necessary to get a new business off the ground, and managing our customer relationships to build a dedicated community of users
+    * Personal love of mathematics, particularly linear, abstract, and geometric algebras
+
+</div>
+
+<div class="section" id="projects">
+p(section-heading). Selected Projects
+
+<div class="project">
+p(project-name). reviewshine.com
+    * With my co-founder, Larry Karnowski, I built a new business and web application to bring music artists together with music bloggers.
+    * Delivered over 12,000 promotional copies in our first year of operation, saving artists over $35K in material and shipping costs and *nearly 20 tons of Carbon Dioxide emissions*.
+
+</div>
+<div class="project">
+p(project-name). testharness (Electronic Arts)
+    * Fully automated unit and functional testing tool for XBox 360 and PS3 consoles.
+    * Through an opinionated (convention over configuration) design, testharness has made it easy for developers at EA to add new test suites and automate test builds and runs on remote game consoles.
+    * Integrated testing support into two continuous integration tools in wide use at EA.
+
+</div>
+<div class="project">
+p(project-name). Fighter-Cage interaction system for EA Sports MMA (Electronic Arts)
+    * Created a new system to support fighter-cage interactions within the ANT animation system.
+    * Implemented the runtime system that runs within the game as well as the data pipeline and the authoring system.
+    * Artists can now set up and tune fighter-cage interactions within ANT, creating precise animations for the moments when a fighter strikes, grips, or is held against the cage.
+
+</div>
+<div class="project">
+p(project-name). Java bindings for rrdtool (Raritan Computer)
+    * Developed Java bindings for the rrdtool data collection and reporting tool using C and JNI.
+    * Significantly improved data collection performance by running the rrdtool source within the Java process, eliminating many additional processes and the use of flock for synchronization.
+
+</div>
+<div class="project">
+p(project-name). PacketPup (Palisade Systems)
+    * Ported the existing PacketHound network security appliance from FreeBSD to Windows.
+    * Created a Windows user interface with Visual C++ and MFC.
+    * PacketPup was used for two years as a demonstration of Palisade's technology, offered as a free demo for users to see the network traffic reporting and control capabilities of PacketHound.
+    * In the UI, users could instantaneously disable traffic by protocol and see the traffic volume drop to zero, a very powerful marketing tool.
+
+</div>
+</div>
+
+<div class="section" id="education">
+p(section-heading). Education and Professional Development
+    * B.S., Computer Engineering & Mathematics, Iowa State University, 2003
+    * MySQL Performance Tuning and Optimization, MySQL AB, 2005
+    * Software Development Best Practices, Dr. Dobb's SD Events Group, 2006
+    * Game Developers Conference, 2008
+    * Triangle Game Conference, Triangle Game Initiative, 2010
+
+</div>
