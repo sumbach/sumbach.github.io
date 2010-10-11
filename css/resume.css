@@ -44,6 +44,7 @@ p.section-heading {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 16pt;
+  margin-bottom: 0.6em;
 }
 
 ul {
