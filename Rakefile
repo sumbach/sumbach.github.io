@@ -4,7 +4,7 @@ SOURCE_FILES = FileList['*.textile']
 SITE_FILES = SOURCE_FILES.gsub(/(.*)\.textile/, '_site/\1.html')
 
 task :jekyll => SOURCE_FILES + CSS_FILES + LAYOUT_FILES do
-  sh "jekyll --pygments --safe"
+  sh "jekyll build"
 end
 
 SITE_FILES.each do |f|
