@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:300,900);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 
 body {
   font-family: 'Droid Serif', times, serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14pt;
   line-height: 1.3em;
 }
@@ -32,7 +32,7 @@ div#printheader {
 
 span.name {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 22pt;
 }
 
@@ -42,7 +42,7 @@ div.section {
 
 p.section-heading {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16pt;
   margin-bottom: 0.6em;
 }
