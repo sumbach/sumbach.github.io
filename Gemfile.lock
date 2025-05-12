@@ -279,8 +279,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 232)
-  jekyll (= 3.10.0)
-  liquid (= 4.0.4)
   rake
 
 BUNDLED WITH
