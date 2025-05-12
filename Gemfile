@@ -2,10 +2,8 @@ source "https://rubygems.org/"
 
 gem "rake"
 
-# from https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
-gem 'jekyll',     '=1.0.3'
-gem 'liquid',     '=2.5.0'
-gem 'redcarpet',  '=2.2.2'
-gem 'maruku',     '=0.6.1'
-gem 'rdiscount',  '=1.6.8'
-gem 'RedCloth',   '=4.2.9'
+# source: https://jekyllrb.com/docs/continuous-integration/github-actions/
+# source: https://pages.github.com/versions/
+gem 'jekyll',       '=3.10.0'
+gem 'github-pages', '=232'
+gem 'liquid',       '=4.0.4'
