@@ -1,6 +1,6 @@
 source "https://rubygems.org/"
 
-gem "rake"
+#gem "rake"
 
 # source: https://jekyllrb.com/docs/continuous-integration/github-actions/
 # source: https://pages.github.com/versions/
